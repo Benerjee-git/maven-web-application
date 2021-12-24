@@ -32,7 +32,7 @@ node ('master')
  stage("UploadArtifactsintoNexus")
  {
  sh "${mavenHome}/bin/mvn deploy"
- } *?
+ } */
  
   stage("DeployAppTomcat")
  {
